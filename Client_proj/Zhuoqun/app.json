@@ -3,11 +3,37 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/detail/detail"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "f0f0f0",
+    "navigationBarTitleText": "卓群",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#bbcde5",
+    "selectedColor": "#4d91fe",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/icon/bottom_bar_index_pressed@2x.png",
+        "iconPath": "pages/images/icon/bottom_bar_index@2x.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath":       "pages/images/icon/bottom_bar_my_pressed@2x.png",
+        "iconPath": "pages/images/icon/icon_buy.png",
+        "pagePath": "pages/index/index",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "pages/images/icon/bottom_bar_my_pressed@2x.png",
+        "iconPath": "pages/images/icon/bottom_bar_my@2x.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
   }
 }

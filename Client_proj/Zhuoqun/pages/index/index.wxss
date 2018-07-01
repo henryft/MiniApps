@@ -19,3 +19,24 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.banner-image{
+  width:750rpx;
+  height:110rpx;
+}
+
+.slide-image{
+  width:750rpx;
+  height:270rpx;
+}
+
+.slide-image3{
+  width:750rpx;
+  height:380rpx;
+}
+
+.flex-wrp{
+    height: 100px;
+    background-color: #FFFFFF;
+    margin-bottom:60rpx;
+}
